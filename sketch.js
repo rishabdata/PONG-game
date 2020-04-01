@@ -111,5 +111,6 @@ function draw() {
 
   //add AI to the computer paddle so that it always hits the ball
   computerPaddle.y = ball.y;
+  console.log(gameState);
   drawSprites();
 }
